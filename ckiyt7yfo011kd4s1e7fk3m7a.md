@@ -33,7 +33,7 @@ Here are some links to the projects I build during the course of this program:
 3.  [Photo Search](https://photosearch.netlify.app/)  
 
 Here is a link to an article I wrote about API:
-1.  [Getting started with APIs in JavaScript](https://emmaglorypraise.medium.com/getting-started-with-apis-in-javascript-254a9b3c6132) 
+1.  [Getting started with APIs in JavaScript](https://glorypraise.hashnode.dev/getting-started-with-apis-in-javascript-ckiytlk54010re5s1fc8c6hwe) 
 
 Thank you for reading :)
 
