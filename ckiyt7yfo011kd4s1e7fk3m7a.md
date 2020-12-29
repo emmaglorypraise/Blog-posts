@@ -35,6 +35,9 @@ Here are some links to the projects I build during the course of this program:
 Here is a link to an article I wrote about API:
 1.  [Getting started with APIs in JavaScript](https://glorypraise.hashnode.dev/getting-started-with-apis-in-javascript-ckiytlk54010re5s1fc8c6hwe) 
 
+
+![Screenshot (487).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1609286296003/AvWXDE8oY.png)
+
 Thank you for reading :)
 
  
