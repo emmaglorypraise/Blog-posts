@@ -25,7 +25,7 @@ In conclusion, It has been a worthwhile experience and I learned how to learn by
 
 Thanks to my mentor and fellow mentees for making this experience worthwhile.
 
-Thanks to She Code Africa for this platform to grow
+Thanks to She Code Africa for this platform to grow.
 
 Here are some links to the projects I build during the course of this program:
 1.  [JavaScript Catalog](https://glory-praise-sca-assessment-1.netlify.app/) 
