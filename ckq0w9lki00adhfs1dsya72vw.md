@@ -11,9 +11,6 @@
 - Import it to your Vue App
 - Testing
 
-
-![christopher-gower-m_HRfLhgABo-unsplash.jpg](Upload failed. Please re-upload the image)
-
 ## Introduction to Tailwind CSS
 
 Tailwind CSS is a utility-first CSS framework which means it has various utility classes which help to create layouts and rapidly create custom designs. It is unlike the other common CSS frameworks like Bootstrap in the sense that Tailwind doesn’t provide any built-in UI components.
