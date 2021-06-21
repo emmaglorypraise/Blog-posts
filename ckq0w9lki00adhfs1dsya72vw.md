@@ -1,7 +1,8 @@
 ## Setting up Tailwind CSS in your Vue Project
 
+Tailwind CSS is a utility-first CSS framework which means it has various utility classes which help to create layouts and rapidly create custom designs. It is unlike the other common CSS frameworks like Bootstrap in the sense that Tailwind doesn’t provide any built-in UI components.
+
 ## Outline
-- Introduction to Tailwind CSS
 - Why choose Tailwind CSS
 - Creating your Vue project
 - Installing Tailwind
@@ -10,10 +11,6 @@
 - Create a CSS file
 - Import it to your Vue App
 - Testing
-
-## Introduction to Tailwind CSS
-
-Tailwind CSS is a utility-first CSS framework which means it has various utility classes which help to create layouts and rapidly create custom designs. It is unlike the other common CSS frameworks like Bootstrap in the sense that Tailwind doesn’t provide any built-in UI components.
 
 ## Why choose Tailwind CSS
 
@@ -154,6 +151,9 @@ If you encounter a syntax error about  Tailwindcss requiring PostCSS 8, you can 
 This will uninstall and install the compatibility build. Read more  [here](https://github.com/postcss/postcss/wiki/PostCSS-8-for-end-users) .
 
 I hope you find this article helpful.
+
+Photo credit:  [Here](Photo by <a href="https://unsplash.com/@cgower?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Gower</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  ) 
 
 Thanks for reading!
  
