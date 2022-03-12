@@ -2,7 +2,7 @@
 
 The blockchain and cryptocurrency worlds may appear intimidating to the average Joe, particularly for individuals lacking technical knowledge of blockchain and smart contracts. However, it is critical to constantly learn and keep up with the world's ever-changing advancements.
 
-A basic awareness of some of the most important aspects of many of today's digital currencies is beneficial, particularly for people considering investing or transitioning into careers in the blockchain field. I will do my best in this essay to introduce you to ERC-20 and ERC-20 tokens.
+A basic awareness of some of the most important aspects of many of today's digital currencies is beneficial, particularly for people considering investing or transitioning into careers in the blockchain field. I will do my best in this article to introduce you to ERC-20 and ERC-20 tokens.
 
 ## What is a Token?
 Tokens are a type of asset. Tokens can be held for their monetary value or sold and staked to earn interest.  Tokens, unlike coins, do not have their own blockchain. Instead, they function on the blockchains of other coins, such as Ethereum. Examples of tokens are Uniswap, Chainlink, and Polygon.
