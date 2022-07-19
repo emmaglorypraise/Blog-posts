@@ -1,4 +1,4 @@
-## Everything I learnt in my first dApp Competition
+## Everything I learnt in my first DApp Competition
 
 June 2022 was a particularly memorable month for me. Aside from my frequent travels (I visited a different state every week), I spent most of my time working on this dApp competition.
 
