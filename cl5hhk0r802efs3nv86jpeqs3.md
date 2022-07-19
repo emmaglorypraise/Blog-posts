@@ -1,6 +1,5 @@
 ## Setting up Tailwind in your React Project
 
-Setting up Tailwind in your React Project
 When you don't sure what to do, I think starting a project can be one of the hardest parts, but other times it can also be the easiest.
 
 This tutorial will demonstrate how to quickly (depending on the speed of your system😂) set up your react project with TailwindCSS.
