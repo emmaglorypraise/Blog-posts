@@ -1,6 +1,9 @@
 ## Solidity smart contract project ideas for beginners
 
-Learning a programming language by building projects is one of the best ways to learn it. Solidity is not exempt. One of the most frequently requested questions after learning the fundamentals is where to find projects to develop for practice, because Web3 is still in its infancy and there isn't a lot of tutorial content and resources to help newcomers.
+Learning a programming language by building projects is one of the best ways to learn it. Solidity is not exempt. 
+
+### Getting started
+One of the most frequently requested questions after learning the fundamentals is where to find projects to develop for practice, because Web3 is still in its infancy and there isn't a lot of tutorial content and resources to help newcomers.
 
 If you are learning Solidity or smart contract programming, I'll be sharing some of the projects I've done so far in this article and how you can build them too. These projects teach you the fundamentals of writing smart contracts as well as typical patterns, vulnerabilities, and difficulties. You are welcome to tweak them however you want.
 
@@ -32,7 +35,7 @@ You can use a struct to organize student information and a mapping to link stude
 12. Multisig wallet: A cryptocurrency wallet that requires two or more private keys to sign and send a transaction is known as a multi-signature wallet (abbreviated "multisig"). With this kind of digital signature, a group of two or more people can sign papers together. Create a multisig wallet that needs the consent of many owners in order for withdrawals to be authorized. Everyone can deposit, but only the proper ration (for instance, 2 out of 3 owners, 3 out of 4 owners, 5 out of 7 owners, etc.) can approve a withdrawal.
 13. A swapping contract: Build a swap contract that can swap between two tokens or a coin and a token. You can create the two tokens yourself. You can also build a pricing oracle that establishes the exchange rates for the tokens. You should build your contract from scratch and then build another swap contract using Uniswap or Pancakeswap routers.
 
-### Other projects you can build include:
+### Other projects you can build include
 
 14. A vault contract
 15. A crowdfunding contract
