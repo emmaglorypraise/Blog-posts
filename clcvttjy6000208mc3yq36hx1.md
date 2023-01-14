@@ -6,7 +6,7 @@ A reentrancy attack continually removes money from a smart contract and transfer
 
 Millions of dollars have been lost to reentrancy attacks affecting blockchain systems and DAOs. The DAO hack, [Lendf.me](http://Lendf.me), and Cream Finance are a few well-known examples of reentrancy attacks that exploited vulnerabilities in blockchain systems.
 
-How does Reenterancy vulnerability happen?
+# How does Reenterancy vulnerability happen?
 
 Consider this contract:
 
