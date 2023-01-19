@@ -1,6 +1,10 @@
 # Vulnerability #4 - Floating Pragma Vulnerability
 
-In the previous article, the outdated solidity compiler version was examined. Floating pragmas are related to it because it still has to do with the Solidity compiler version. What is Floating pragma? Floating pragma is a \`pragma\` statement in a Solidity contract that does not specify a specific version of the compiler, but rather a range of compiler versions that can be used for compilation. For example:
+In the previous article, we talked about outdated Solidity compiler versions and their vulnerabilities. Floating pragma vulnerabilities are related to it because it still has to do with the Solidity compiler version.
+
+What then is Floating pragma?
+
+Floating pragma is a \`pragma\` statement in a Solidity contract that does not specify a specific version of the compiler but rather a range of compiler versions that can be used for compilation. For example:
 
 ```bash
 pragma solidity ^0.4.0; //Compiles with versions between 0.4.0 and latest version
@@ -9,7 +13,7 @@ pragma solidity >0.4.13 <0.8.0;
 pragma solidity 0.4.24 - 0.5.2;
 ```
 
-Developers should stay away from using floating pragmas (refer to the example given below). The best practice is to deploy the contract to the mainnet after locking a pragma version. Different pragma versions being used in test and mainnet may pose unidentified security issues.
+Developers should stay away from using floating pragmas. Different pragma versions being used in test and mainnet may pose unidentified security issues.
 
 # Prevention
 
