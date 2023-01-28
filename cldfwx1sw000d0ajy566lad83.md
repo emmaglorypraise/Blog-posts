@@ -15,33 +15,6 @@ For example, when a person sees a significant trade being made on a decentralize
 To explain this more, consider a simple auction contract written in Solidity as an illustration:
 
 ```solidity
-// SPDX-License-Identifier: MIT
-    pragma solidity 0.8.0;
-    contract Auction {
-        address public owner;
-        uint public highestBid;
-        address public highestBidder;
-        constructor()  {
-            owner = msg.sender;
-        }
-        function bid(uint _bid) public payable {
-            require(_bid > highestBid);
-            require(msg.value == _bid);
-            require(highestBidder != msg.sender);
-            if (highestBidder != address(0)) {
-                payable(highestBidder).transfer(highestBid);
-            }
-            highestBid = _bid;
-            highestBidder = msg.sender;
-        }
-        function endAuction() public {
-            require(msg.sender == owner);
-            payable(owner).transfer(highestBid);
-        }
-    }
-```
-
-```solidity
 // SPDX-License-Identifier: MIT 
 pragma solidity 0.8.0; 
 contract Auction { 
