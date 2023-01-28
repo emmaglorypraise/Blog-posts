@@ -47,7 +47,7 @@ require(msg.sender == address(this), "Unauthorized access");         // do somet
 
 This updated example still requires the caller address to be checked before granting access to the doSomething method, but it does so using `address(this).caller` rather than `tx.origin`. Because the contract is validating the caller address rather than the origin address, even if an attacker develops a proxy contract and changes the `tx.origin` address, they will not be able to get unauthorized access to the doSomething function.
 
-### Prevention
+## Prevention
 
 Avoid using the `tx.origin` address in your contracts; instead, use `msg.sender` or address(this). Additionally, you should use `address(this).caller` or `address(this).origin` rather than `tx.origin` as a condition to carry out an action.
 
