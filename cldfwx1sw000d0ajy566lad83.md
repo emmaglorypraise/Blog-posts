@@ -1,4 +1,12 @@
-# Vulnerability #5 - Frontrunning Vulnerability
+---
+title: "Vulnerability #5 - Frontrunning Vulnerability"
+datePublished: Sat Jan 28 2023 12:11:38 GMT+0000 (Coordinated Universal Time)
+cuid: cldfwx1sw000d0ajy566lad83
+slug: vulnerability-5-frontrunning-vulnerability
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674838590552/0abfcec7-90a0-4f28-b59b-202888d5e21e.png
+tags: web-development, smart-contracts, smart-contract-security
+
+---
 
 The distributed ledger of the blockchain does not instantaneously update with new transactions. They are gathered into blocks and only added to the ledger as a part of these blocks. A malicious node can view the transaction, determine its purpose, and create its own malicious request (transaction) based on the observed transaction before it is included in a block because the transaction is visible to the nodes as it is propagated to the network. Usually, the transaction fees are used to decide the order in which transactions are put to blocks. Blockchain users can determine their own costs, while most blockchains have a minimum charge.
 
@@ -115,6 +123,10 @@ bid.revealed = true;
 }     
 }
 ```
+
+Another way to prevent frontrunning is to use private transactions. Private transactions are a type of transaction that allows users to send and receive funds without revealing their addresses, transaction amounts, or other transaction details to the public. This makes it difficult for frontrunners to identify and copy transactions before they are executed.
+
+Developers are increasingly using companies like Flashbots and Alchemy to protect themselves from frontrunning. Using APIs like Alchemy's [eth\_sendPrivateTransaction](https://docs.alchemy.com/reference/eth-sendprivatetransaction) [API](https://znsrc.com/c/yivwqmmgwz), you can send secure and private transactions that bypass the public mempool.
 
 ## Conclusion
 
