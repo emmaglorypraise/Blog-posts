@@ -86,7 +86,7 @@ Note that the `AggregatorV3Interface` is imported from the Chainlink contract re
 
 Overall, using an oracle like Chainlink in a Solidity contract is a good way to ensure that the contract is secure and reliable, especially when dealing with timestamp vulnerabilities.
 
-##Conclusion
+## Conclusion
 
 In conclusion, a timestamp dependence vulnerability in a smart contract can lead to unexpected behavior and potential security issues if the timestamp is manipulated. It is recommended to use an Oracle for timestamping in smart contracts to ensure reliable and accurate timestamps. Smart contract developers should be aware of this vulnerability and take the necessary precautions to ensure the security of their contracts.
 
