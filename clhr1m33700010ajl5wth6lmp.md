@@ -8,7 +8,7 @@ tags: smart-contracts, bugs, smart-contract-security-audit, vulnerability-manage
 
 ---
 
-In the realm of Web3, smart contract security plays a vital role, yet it is often given less attention compared to smart contract development skills. This oversight has resulted in significant financial losses due to minor errors, oversights, and even mistakes borne out of ignorance.
+In the realm of Web3, smart contract security plays a vital role, yet it is often given less attention compared to smart contract development skills. This has resulted in significant financial losses due to minor errors, oversights, and even mistakes borne out of ignorance.
 
 The [CyberNews.com](http://CyberNews.com) investigation team’s analysis of Ethereum smart contracts shows that nearly 3,800 smart contracts have severe weaknesses that can allow cybercriminals to quickly steal 1 million dollars. One of the most famous Ethereum smart contract vulnerabilities is what’s known as a reentrancy attack, which in 2016 allowed a cybercriminal to steal $50 million.
 
