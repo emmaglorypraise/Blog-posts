@@ -24,8 +24,6 @@ Now that we know what the blockchain is, we can now explore the different layers
     
     Layer 0 represents the foundational layer of the blockchain ecosystem, including core infrastructure and cross-chain operability protocols. This includes hardware components such as mining equipment or nodes, as well as the network protocols that enable communication and consensus among the nodes. Layer zero includes not only the hardware layer but also miners and validators.
     
-    &lt;br&gt;&lt;/br&gt;
-    
     In some contexts, the term "Layer 0" is used to refer to networks of blockchains or protocols that enable cross-chain interoperability. These protocols aim to facilitate communication and data transfer between different blockchains, allowing them to interact and share information securely.
     
     For example, Polkadot is often considered a Layer 0 protocol because it provides a framework for creating and connecting multiple blockchains, known as parachains, into a unified network. Polkadot enables interoperability between these parachains, allowing them to communicate and exchange data.
