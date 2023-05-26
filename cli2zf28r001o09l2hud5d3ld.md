@@ -12,9 +12,9 @@ Blockchain technology has revolutionized various industries, especially decentra
 
 ## What is a Blockchain?
 
-You might be wondering, "What is a blockchain?" . A blockchain can be defined as a decentralized and transparent digital ledger that records and verifies transactions across multiple computers or nodes. It's like a digital database or a shared spreadsheet that securely stores information in a series of blocks that are linked together in a chain.
+You might be wondering, "What is a blockchain?". A blockchain can be defined as a decentralized and transparent digital ledger that records and verifies transactions across multiple computers or nodes. It's like a digital database or a shared spreadsheet that securely stores information in a series of blocks that are linked together in a chain.
 
-Let's consider a relatable example: Imagine that you and your friends want to keep track of borrowed money without relying on a central authority. Using blockchain technology, each transaction, like lending $10 to a friend, is grouped into a block and verified by a network of nodes. Once verified, the block is added to the chain, creating a permanent and unalterable record. Everyone in the network can see the transactions, ensuring transparency, while cryptographic techniques and consensus algorithms make it secure.
+Let's consider a relatable example: Imagine that we want to raise funds for a friend to go to school abroad, and we want the process to be transparent and secure. Using blockchain technology, each person's transaction, like Peter donating $10 to this fundraiser, is grouped into a block and verified by a network of nodes. Once verified, the block is added to the chain, creating a permanent and unalterable record. Everyone in the network can see the transactions, ensuring transparency. Technologies like cryptography, etc., are used to make the whole system secure. This is a simple example of how the blockchain works.
 
 Now that we know what the blockchain is, we can now explore the different layers of the blockchain
 
@@ -25,7 +25,7 @@ Now that we know what the blockchain is, we can now explore the different layers
     Layer 0 represents the foundational layer of the blockchain ecosystem, including core infrastructure and cross-chain operability protocols. This includes hardware components such as mining equipment or nodes, as well as the network protocols that enable communication and consensus among the nodes. Layer zero includes not only the hardware layer but also miners and validators.
     
 
-In some contexts, The term "Layer 0" is used to refer to networks of blockchains or protocols that enable cross-chain interoperability. These protocols aim to facilitate communication and data transfer between different blockchains, allowing them to interact and share information securely.
+In some contexts, the term "Layer 0" is used to refer to networks of blockchains or protocols that enable cross-chain interoperability. These protocols aim to facilitate communication and data transfer between different blockchains, allowing them to interact and share information securely.
 
 For example, Polkadot is often considered a Layer 0 protocol because it provides a framework for creating and connecting multiple blockchains, known as parachains, into a unified network. Polkadot enables interoperability between these parachains, allowing them to communicate and exchange data.
 
@@ -35,13 +35,13 @@ Examples of Layer 0 blockchains include: Polkadot[,](https://guardarian.com/buy-
 
 * ### Layer 1:
     
-    Layer 1, also known as the base layer or protocol layer, refers to the core blockchain network itself. Layer 1 blockchains can validate and finalize transactions using their own networks. They have their own native token, also known as a coin, which is used to pay transaction fees. It comprises the fundamental blockchain protocols and architectures, including their consensus mechanisms and native cryptocurrencies. Layer 1 blockchains often prioritize decentralization, security, and immutability.
+    Layer 1, also known as the base layer or protocol layer, refers to the core blockchain network itself. It comprises the fundamental blockchain protocols and architectures, including their consensus mechanisms and native cryptocurrencies. Layer 1 blockchains can validate and finalize transactions using their own networks. They have their own native token, also known as a coin, which is used to pay transaction fees. Layer 1 blockchains often prioritize decentralization, security, and immutability.
     
     Examples of Layer 1 blockchains include: Bitcoin[,](https://guardarian.com/buy-btc) Ethereum, Binance Smart Chain, Solana, etc
     
 * ### Layer 2:
     
-    Layer 2 solutions address scalability and efficiency challenges on top of Layer 1 blockchains. Layer 2 solutions can be categorized into two main types: off-chain and sidechain solutions.
+    Layer 2 blockchains are built to address scalability and efficiency challenges on top of Layer 1 blockchains. Layer 2 solutions can be categorized into two main types: off-chain and sidechain solutions.
     
     a. Off-chain solutions: Off-chain solutions enable the execution of transactions and smart contracts outside the main blockchain, reducing congestion and increasing transaction throughput. Examples of off-chain solutions include payment channels (e.g., Lightning Network for Bitcoin) and state channels (e.g., Raiden Network for Ethereum). These solutions facilitate faster and cheaper transactions while leveraging the security of the underlying Layer 1 blockchain.
     
@@ -72,7 +72,7 @@ These layers work collaboratively to create a comprehensive blockchain framework
 
 ## Conclusion
 
-Understanding the different layers in the blockchain ecosystem is crucial for comprehending decentralized applications and Web3 projects. By working together, these layers create a comprehensive blockchain framework with immense potential to revolutionize industries. Exploring and harnessing the capabilities of each layer will be vital to driving innovation and shaping the future of decentralized technologies.
+Understanding the different layers in the blockchain ecosystem is crucial for comprehending decentralized applications and Web3 projects. By working together, these layers create a comprehensive blockchain ecosystem with immense potential to revolutionize industries. Exploring and harnessing the capabilities of each layer will be vital to driving innovation and shaping the future of decentralized technologies.
 
 Thanks for reading!
 
