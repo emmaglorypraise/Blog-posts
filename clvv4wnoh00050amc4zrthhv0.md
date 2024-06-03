@@ -110,9 +110,11 @@ import { ethers } from 'ethers';
 This is a decentralized voting dapp, hence, it requires a smart contract. Define the ABI and contract address for your smart contract. Replace `'your-contract-address'` with your actual contract address.
 
 ```typescript
-const abi = [/* Your contract ABI */];
-const contractAddress = 'your-smart-contract-address';
+const abi = [/* Voting contract ABI in Github Gist below */]; 
+const contractAddress = '0x4bc4154b03B7fBbE72CBFA33aDe77BB820FbB337'; // Deployed contract address
 ```
+
+ABI in GitHub Gist [here](https://gist.github.com/emmaglorypraise/336f5efe5c7563aa99d6a9003d062d32).
 
 ### **Step 6: Creating the SDK Instance**
 
@@ -162,7 +164,7 @@ Next, we create a `handleConnect` function. Inside the `handleConnect` funct
 
 Implement a `handleConnect` function to connect to the wallet by:
 
-```bash
+```typescript
 const handleConnect = async () => {
   const ethereum = sdk.provider("eip155:137");
   await ethereum.request({ method: "eth_requestAccounts", params: [] });
@@ -175,7 +177,7 @@ const handleConnect = async () => {
 
 Next, we create a `handleSignMessage` function that sends a message to the smart contract with the user's account to cast a vote for the selected club. The selected club is passed to this function when a user clicks on it. After sending the message, the vote count for the selected club is incremented.
 
-```bash
+```typescript
  const handleSignMessage = async (club: string) => {
     
     // Connects with wallet account
@@ -235,14 +237,14 @@ Next, we create a `handleSignMessage` function that sends a message to the sma
 
 To read the smart contract and update the dapp with the current vote counts, use `useEffect` to fetch initial vote counts from the contract.
 
-```bash
+```typescript
 useEffect(() => {
     if (!contract) {
       // Initialize the contract instance once
       const provider = new ethers.JsonRpcProvider('https://polygon-mainnet.infura.io/v3/YOUR-RPC-KEY');
       console.log('provider:', provider);
 
-      const signer = new JsonRpcSigner(provider, "YOUR-WALLET-ADDRESS");
+      const signer = new JsonRpcSigner(provider, "YOUR-INTMAX-WALLET-ADDRESS");
       console.log('signer:', signer);
       
       const contractInstance = new ethers.Contract(contractAddress, abi, signer);
@@ -271,7 +273,7 @@ This also updates the state after each vote is made.
 
 Render the component UI, including buttons for connecting the wallet, casting votes, and displaying vote counts:
 
-```bash
+```typescript
  return (
     <div className="flex flex-col items-center min-h-screen bg-gray-100">
       <div className="w-full bg-blue-500 p-4 flex justify-between items-center sticky top-0 z-10">
@@ -378,3 +380,7 @@ The simplicity of this process underscores the potential of blockchain technolog
 * Live demo: [sports-voting-demo.vercel.app](https://sports-voting-demo.vercel.app/)
     
 * Full code in Github Rep: [emmaglorypraise/Sports-Voting-Demo (github.com)](https://github.com/emmaglorypraise/Sports-Voting-Demo/)
+    
+* Smart contract code and ABI: [GitHub Gist](https://gist.github.com/emmaglorypraise/336f5efe5c7563aa99d6a9003d062d32)
+    
+* Reach out to me on [Twitter](https://twitter.com/emmaglorypraise) if you have any questions.
