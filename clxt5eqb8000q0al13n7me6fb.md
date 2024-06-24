@@ -3,6 +3,7 @@ title: "How to Integrate INTMAX Wallet into Your dApp Using RainbowKit"
 datePublished: Mon Jun 24 2024 15:44:27 GMT+0000 (Coordinated Universal Time)
 cuid: clxt5eqb8000q0al13n7me6fb
 slug: how-to-integrate-intmax-wallet-into-your-dapp-using-rainbowkit
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719244860015/02666ba6-47c0-4b72-bb92-07231aa851a5.png
 tags: web3, wallet, intmax
 
 ---
