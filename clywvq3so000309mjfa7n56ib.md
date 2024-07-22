@@ -42,7 +42,7 @@ Intmax2 addresses these complexities using advanced cryptographic techniques and
 
 Intmax2 is an innovative Zero-Knowledge rollup (ZK-rollup) protocol that addresses the limitations of Layer 1 (L1) and Layer 2 (L2) solutions through a stateless architecture, enhancing scalability, security, and decentralization. By maintaining cryptographic proofs instead of the entire blockchain state, Intmax2 significantly boosts scalability and ensures data privacy and security with advanced cryptographic techniques.
 
-### How INTMAX2 Utilizes Statelessness
+### How Intmax2 Utilizes Statelessness
 
 Statelessness, when applied to blockchain, means that networks operate without keeping exhaustive histories of all past transactions to validate new ones, significantly reducing the data burden on each node. This approach allows for faster processing and greater scalability, making blockchain systems leaner and more efficient, thereby addressing the scalability challenges faced by many current networks. Intmax2 leverages this concept to enhance scalability.
 
@@ -50,7 +50,7 @@ Intmax2 achieves statelessness by shifting data and computational costs to the c
 
 Also by maintaining cryptographic proofs instead of the entire blockchain state. For example, when a user executes a transaction only 5 bytes of data are needed to verify online transactions. This method drastically reduces the data burden on each node, allowing for faster processing and greater scalability.
 
-### How INTMAX2 Works
+### How Intmax2 Works
 
 Intmax2 optimizes the verification and posting of user transactions on-chain by employing the Boneh-Lynn-Shacham (BLS) signature scheme for signature aggregation. This scheme allows for multiple individual signatures to be combined into a single aggregated signature, ensuring the integrity of transactions with minimal on-chain data. This approach significantly reduces the data load on the blockchain, enhancing both transaction efficiency and scalability.
 
