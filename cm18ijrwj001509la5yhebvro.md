@@ -3,7 +3,7 @@ title: "Interacting with Smart Contracts Using INTMAX Wallet SDK and Ethers.js"
 datePublished: Wed Sep 18 2024 23:47:57 GMT+0000 (Coordinated Universal Time)
 cuid: cm18ijrwj001509la5yhebvro
 slug: interacting-with-smart-contracts-using-intmax-wallet-sdk-and-ethersjs
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726703170555/07cc33a9-4529-4cfe-ba8c-b8c9380af89f.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726703612996/945e4052-636b-465c-80f9-ee118548b90e.png
 tags: dapps, web3, smart-contracts, wallet, ethersjs, intmax
 
 ---
